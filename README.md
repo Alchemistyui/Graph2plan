@@ -78,6 +78,9 @@ Create a new environment for training.
   conda install django opencv scipy pandas
   conda install pytorch==1.3.1 torchvision==0.4.2 -c pytorch
   pip install tqdm tensorboardX pytorch-ignite==0.2.1
+  # need to change pillow version
+  ** pip uninstall Pillow
+  ** pip install Pillow==6.2.2
   ```
 
 ### Prepare data
